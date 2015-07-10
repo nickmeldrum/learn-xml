@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.scribestar.com"
+xmlns="http://www.scribestar.com" elementFormDefault="qualified">
+
+<xs:element name="blog">
+  <xs:complexType>
+    <xs:sequence>
+        <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
+

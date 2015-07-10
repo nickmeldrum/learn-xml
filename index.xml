@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
-<blog>
+<blog xmlns="http://www.scribestar.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.scribestar.com blog.xsd">
     <author>Nick Meldrum</author>
 
     <posts>

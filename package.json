@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/nickmeldrum/learn-xml",
   "dependencies": {
-    "http-server": "^0.8.0"
+    "http-server": "^0.8.0",
+    "xsd-schema-validator": "^0.3.1"
   }
 }
