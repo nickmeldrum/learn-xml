@@ -4,9 +4,18 @@
     <xsl:template match="/blog">
     <html>
         <body>
-            <h1><xsl:value-of select="author" />'s Blog</h1>
+            <header>
+                <h1><xsl:value-of select="author" />'s Blog</h1>
+            </header>
+
+            <xsl:apply-templates select="posts/post" />
         </body>
     </html>
+    </xsl:template>
+
+    <xsl:template match="posts/post">
+        <article>
+        </article>
     </xsl:template>
 
 </xsl:stylesheet>
