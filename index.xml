@@ -9,6 +9,10 @@
             <p>I think blogging is just wonderful. I intent to write a blog every week</p>
             <p>In no way is this <strong>great</strong> intention going to slip away from me.</p>
         </post>
+        <post>
+            <h2>This is my second post!</h2>
+            <p>Sorry I've been away for so long - but I'm back and <strong>now</strong> I'm going to blog every week. From now on!</p>
+        </post>
     </posts>
 </blog>
 
