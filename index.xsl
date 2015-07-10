@@ -4,7 +4,7 @@
     <xsl:template match="/">
     <html>
         <body>
-            Hello world!
+            <h1><xsl:value-of select="author" />'s Blog</h1>
         </body>
     </html>
     </xsl:template>
