@@ -4,7 +4,11 @@
     <author>Nick Meldrum</author>
 
     <posts>
-        <post>Hello world!</post>
+        <post>
+            <h2>This is my first post!</h2>
+            <p>I think blogging is just wonderful. I intent to write a blog every week</p>
+            <p>In no way is this <strong>great</strong> intention going to slip away from me.</p>
+        </post>
     </posts>
 </blog>
 
