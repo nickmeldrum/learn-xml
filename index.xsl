@@ -8,6 +8,9 @@
                 <h1><xsl:value-of select="author" />'s Blog</h1>
             </header>
 
+            <nav>
+            </nav>
+
             <xsl:apply-templates select="posts/post" />
         </body>
     </html>
@@ -23,5 +26,6 @@
         <xsl:copy>
           <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
-      </xsl:template>
+    </xsl:template>
 </xsl:stylesheet>
+
