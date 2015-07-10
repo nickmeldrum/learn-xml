@@ -15,7 +15,7 @@
 
     <xsl:template match="posts/post">
         <article>
-            <xsl:value-of select="." />
+            <xsl:apply-templates />
         </article>
     </xsl:template>
 
