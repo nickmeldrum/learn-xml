@@ -11,6 +11,8 @@
   "bugs": {
     "url": "https://github.com/nickmeldrum/learn-xml/issues"
   },
-  "homepage": "https://github.com/nickmeldrum/learn-xml"
+  "homepage": "https://github.com/nickmeldrum/learn-xml",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
 }
-
